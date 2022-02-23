@@ -1,12 +1,8 @@
-import React from 'react';
-import './style.css';
-import Question from './Question';
-
-export default function App() {
-  return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <Question />
-    </div>
-  );
+import React, { useState } from 'react';
+import data from './data';
+import SingleQuestion from './Question';
+function App() {
+  return <h2>accordion project setup</h2>;
 }
+
+export default App;

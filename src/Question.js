@@ -1,9 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 const Question = () => {
-  return (
-    <div>
-      <h2>Question Compoment</h2>
-    </div>
-  );
+  return <h2>question component</h2>;
 };
+
 export default Question;
