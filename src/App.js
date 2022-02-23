@@ -1,11 +1,22 @@
 import React, { useState } from 'react';
 import data from './data';
 import SingleQuestion from './Question';
-
+import './style.css';
 function App() {
-  const [title, setTitle] = useState(SingleQuestion);
+  const [Hemant, setQuestions] = useState(data);
 
-  return <h2>accordion project setup</h2>;
+  return (
+    <main>
+      <div className="container">
+        <h3>Question and answer about login</h3>
+        <section className="info">
+          {Hemant.map((question) => {
+            return <SingleQuestion key={question.id} {...question} />;
+          })}
+        </section>
+      </div>
+    </main>
+  );
 }
 
 export default App;
