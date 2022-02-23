@@ -7,8 +7,8 @@ function App() {
 
   return (
     <h2>
-      accordion project setup
-      <BeachAccessIcon />
+      accordion project setup //
+      {/* <BeachAccessIcon /> */}
     </h2>
   );
 }
