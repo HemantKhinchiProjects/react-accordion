@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import data from './data';
 import SingleQuestion from './Question';
-import BeachAccessIcon from '@material-ui/icons/BeachAccess';
+//import BeachAccessIcon from '@material-ui/icons/BeachAccess';
 function App() {
   //[title, setTitle] = useState(SingleQuestion);
 
